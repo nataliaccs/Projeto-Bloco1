@@ -61,7 +61,7 @@ Scanner leia = new Scanner(System.in);
 			System.out.println("\n**************************************************");
 		}
 		}else {
-			System.out.println("Catálogo vazio. Adicine uma série para consulta");
+			System.err.println("Catálogo vazio. Adicione uma série para consulta");
 		}
 		
 	}

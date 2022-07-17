@@ -53,7 +53,7 @@ public class CrudDocumentario extends Catalogo {
 			
 		}
 		}else {
-			System.out.println("Catálogo vazio. Adicine uma série para consulta");
+			System.err.println("Catálogo vazio! Adicine um documentário para consulta");
 		}
 	
 	 } 
