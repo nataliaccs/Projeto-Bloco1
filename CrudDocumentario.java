@@ -40,7 +40,7 @@ public class CrudDocumentario extends Catalogo {
 @Override
 	public void visualizar() {
 	
-		if(listSeries.size()>0) {
+		if(listDocumentario.size()>0) {
 		for (Documentario exibir: listDocumentario ) {
 			
 		

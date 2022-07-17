@@ -45,7 +45,7 @@ public class CrudFilme extends Catalogo {
 @Override
 public void visualizar() {
 	
-	if(listSeries.size()>0) {
+	if(listFilmes.size()>0) {
 	for (Filmes exibir: listFilmes ) {
 	
 		System.out.println("**************************************************");
