@@ -61,7 +61,7 @@ public void visualizar() {
 		
 	}
 	}else {
-		System.out.println("Catálogo vazio! Adicione um filme para consulta");
+		System.err.println("Catálogo vazio! Adicione um filme para consulta");
 	}
 	
  } 
