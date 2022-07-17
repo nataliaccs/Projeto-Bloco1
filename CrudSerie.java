@@ -49,6 +49,7 @@ Scanner leia = new Scanner(System.in);
 	
 	@Override
 	public void visualizar() {
+		if(listSeries.size()>0) {
 		for(Series exibir: listSeries) {
 			System.out.println("**************************************************");
 			System.out.print("Título: "+exibir.getTitulo());
@@ -58,6 +59,9 @@ Scanner leia = new Scanner(System.in);
 			System.out.print("\nEpisódios: "+exibir.getEpisodios());
 			System.out.print("\nTemporadas: "+exibir.getTemporadas());
 			System.out.println("\n**************************************************");
+		}
+		}else {
+			System.out.println("Catálogo vazio. Adicine uma série para consulta");
 		}
 		
 	}

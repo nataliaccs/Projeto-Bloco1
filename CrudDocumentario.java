@@ -40,8 +40,10 @@ public class CrudDocumentario extends Catalogo {
 @Override
 	public void visualizar() {
 	
-		
+		if(listSeries.size()>0) {
 		for (Documentario exibir: listDocumentario ) {
+			
+		
 			System.out.print("Título: "+exibir.getTitulo());
 			System.out.print("\nGênero: "+exibir.getGenero());
 			System.out.print("\nClassificação indicativa: "+exibir.getClassificacaoindicativa());
@@ -50,7 +52,9 @@ public class CrudDocumentario extends Catalogo {
 			System.out.print("\nDuração(em minutos): "+exibir.getDuracao());		
 			
 		}
-		
+		}else {
+			System.out.println("Catálogo vazio. Adicine uma série para consulta");
+		}
 	
 	 } 
  	
